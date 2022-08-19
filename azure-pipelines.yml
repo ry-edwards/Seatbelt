@@ -29,7 +29,7 @@ steps:
     configuration: '$(buildConfiguration)'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.BinariesDirectory)'
+    PathtoPublish: 'D:\a\1\s\Seatbelt\bin\Release\Seatbelt.exe'
     ArtifactName: 'drop'
     publishLocation: 'Container'
 
